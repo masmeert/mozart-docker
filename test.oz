@@ -5,6 +5,6 @@ import
      Application
      System
 define
-    {System.showInfo 'Hola, Mundo'}
+    {System.showInfo 'Hello, world'}
     {Application.exit 0} 
 end
