@@ -9,5 +9,5 @@ USER $user
 WORKDIR /home/$user
 
 RUN git clone https://aur.archlinux.org/mozart2.git
-WORKDIR mozart2
+WORKDIR /home/$user/mozart2
 RUN (echo "Y") | makepkg -si
